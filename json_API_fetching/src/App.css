@@ -1,0 +1,45 @@
+/* Apply background only to body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 66, 54);
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container */
+.container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    margin: 50px auto;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Input styling */
+.idinput {
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+/* Text inside container */
+.container p,
+.container h3,
+.container h4,
+.container label {
+    background-color: transparent; /* prevent override */
+    color: black;
+}
