@@ -11,8 +11,8 @@ function App() {
       <Headers />
       <Navbar />
       <hr /> 
-      {/* <MainRoutes /> */}
-      
+      <MainRoutes />
+      <h1>Hello</h1>
       <hr />
       <Footer />
     </div>
